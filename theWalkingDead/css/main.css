@@ -117,6 +117,16 @@ div.menu {
     width:300px;
 }
 
+/* styling for important text */
+.emphasis {
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px 5px #000000;
+    font-size: 22px;
+    font-weight:700;
+
+}
+
+
 /* styling for btn (3D)*/
 #btn1 div {
     position: absolute;
