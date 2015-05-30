@@ -4,10 +4,10 @@
     <!-- 
         * file name: index.html
         * author's name: Roy Kim
-        * last modified by: 
-        * date last modified:
-        * program description:
-        * revision history:
+        * last modified by: Roy Kim
+        * date last modified: May 29, 2015
+        * program description: the WalkingDead scenario and step-by-step explanation.
+        * revision history: _v4
     -->
     
     <meta charset="utf-8" />
@@ -90,7 +90,9 @@
             </div>
         </div>
         <!-- main slide end -->
+
         <!-- 2nd level slides begin-->
+        <!-- slide for forest -->
         <div id="forest" class="step slide" data-y="1500" data-z="1500">
             <div class="slide-text">
                 <p class="title">The Walking Dead</p>
@@ -128,6 +130,7 @@
             </div>
         </div>
 
+        <!-- slide for road -->
         <div id="road" class="step slide" data-x="1500" data-y="1500" data-z="1500">
             <div class="slide-text">
                 <p class="title">The Walking Dead</p>
@@ -140,7 +143,7 @@
 
                 <p>Which direction do you want to go?</p>
                 <p>
-                    <a href="#ns">
+                    <a href="#nw">
                         <div id="btn1" class="btn">
                             <div class="one">North<br />West</div>
                             <div class="two">North<br />West</div>
@@ -168,6 +171,7 @@
             </div>
         </div>
 
+        <!-- slide for railway -->
         <div id="railway" class="step slide" data-x="-1500" data-y="1500" data-z="1500">
             <div class="slide-text">
                 <p class="title">The Walking Dead</p>
@@ -207,6 +211,7 @@
 
         <!-- 3nd level slides begin-->
         <!-- [3-1] slides for forest begin-->
+        <!-- slide for north of forest -->
         <div id="north" class="step slide" data-y="1500" data-z="1500">
             <div class="slide-text">
                 <p class="title">The Walking Dead</p>
@@ -242,6 +247,7 @@
             </div>
         </div>
 
+        <!-- slide for south of forest -->
         <div id="south" class="step slide" data-y="-1500" data-z="1500">
             <div class="slide-text">
                 <p class="title">The Walking Dead</p>
@@ -252,23 +258,23 @@
                 <p>
                     <a href="#accept">
                         <div id="btn1" class="btn">
-                            <div class="one">Accept</div>
-                            <div class="two">Accept</div>
-                            <div class="three">Accept</div>
-                            <div class="four">Accept</div>
-                            <div class="five">Accept</div>
-                            <div class="six">Accept</div>
+                            <div class="one">Acc-<br />ept</div>
+                            <div class="two">Acc-<br />ept</div>
+                            <div class="three">Acc-<br />ept</div>
+                            <div class="four">Acc-<br />ept</div>
+                            <div class="five">Acc-<br />ept</div>
+                            <div class="six">Acc-<br />ept</div>
                         </div>
                     </a>
 
                     <a href="#refuse">
                         <div id="btn2" class="btn">
-                            <div class="one">Refuse</div>
-                            <div class="two">Refuse</div>
-                            <div class="three">Refuse</div>
-                            <div class="four">Refuse</div>
-                            <div class="five">Refuse</div>
-                            <div class="six">Refuse</div>
+                            <div class="one">Re-<br />fuse</div>
+                            <div class="two">Re-<br />fuse</div>
+                            <div class="three">Re-<br />fuse</div>
+                            <div class="four">Re-<br />fuse</div>
+                            <div class="five">Re-<br />fuse</div>
+                            <div class="six">Re-<br />fuse</div>
                         </div>
                     </a>
                 </p>
@@ -281,6 +287,7 @@
         <!-- [3-1] slides for forest end-->
 
         <!-- [3-2] slides for road begin-->
+        <!-- slide for north-west of road -->
         <div id="nw" class="step slide" data-x="-1500" data-y="1500" data-z="1500">
             <div class="slide-text">
                 <p class="title">The Walking Dead</p>
@@ -316,11 +323,13 @@
             </div>
         </div>
 
+        <!-- slide for south-east of road -->
         <div id="se" class="step slide" data-x="1500" data-y="-1500" data-z="1500">
             <div class="slide-text">
                 <p class="title">The Walking Dead</p>
                 <p><div class="emphasis">Zombies!!!</div><br /> You and your group confront lots of zombies. </p>
-                <img src="images/zombie_warehouse.jpg" class="slideImg" />
+                <img src="images/zombie_confront.jpg" class="slideImg" />
+                
                 <p>Will you fight aginst the zombies? or run away? </p>
                 <p>
                     <a href="#fight">
@@ -353,6 +362,7 @@
         <!-- [3-2] slides for road end-->
 
         <!-- [3-3] slides for railway begin-->
+        <!-- slide for west of railway -->
         <div id="west" class="step slide" data-x="-1500" data-z="1500">
             <div class="slide-text">
                 <p class="title">The Walking Dead</p>
@@ -389,6 +399,7 @@
             </div>
         </div>
 
+        <!-- slide for east of railway -->
         <div id="east" class="step slide" data-x="1500" data-z="1500">
             <div class="slide-text">
                 <p class="title">The Walking Dead</p>
@@ -425,9 +436,10 @@
             </div>
         </div>
         <!-- [3-3] slides for railway end-->
-        <!-- 3nd level slides begin-->
+        <!-- 3nd level slides end-->
 
         <!-- 4nd level slides begin-->
+        <!-- slide for result of fight -->
         <div id="fight" class="step slide" data-z="1500">
             <div class="slide-text">
                 <p class="title">The Walking Dead</p>
@@ -440,10 +452,11 @@
             </div>
         </div>
 
+        <!-- slide for result of runaway -->
         <div id="run" class="step slide" data-z="1500">
             <div class="slide-text">
                 <p class="title">The Walking Dead</p>
-                <p><div class="emphasis">You will die..</div><br /> Although all of your group run away from the zombies, but your group are stuck. </p>
+                <p><div class="emphasis">You will die..</div><br /> Although all of your group run away from the zombies, but you are stuck. </p>
                 <img src="images/dead_rock.jpg" class="slideImg" />
 
             </div>
@@ -452,6 +465,7 @@
             </div>
         </div>
 
+        <!-- slide for result of accept -->
         <div id="accept" class="step slide" data-z="1500">
             <div class="slide-text">
                 <p class="title">The Walking Dead</p>
@@ -464,6 +478,7 @@
             </div>
         </div>
 
+        <!-- slide for result of refuse -->
         <div id="refuse" class="step slide" data-z="1500">
             <div class="slide-text">
                 <p class="title">The Walking Dead</p>

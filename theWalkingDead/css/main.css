@@ -17,10 +17,10 @@
     transition: opacity 1s ease;
 }
 
-    /* styling for slides that are active*/
-    .impress-enabled .step.active {
-        opacity: 1;
-    }
+/* styling for slides that are active*/
+.impress-enabled .step.active {
+    opacity: 1;
+}
 
 
 /* styling for all slides */
